@@ -5,6 +5,7 @@ import cors from 'cors';
 import multer from 'multer';
 import { randomUUID } from 'crypto';
 import fs from 'fs';
+import router from './videos/index.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
